@@ -4,7 +4,7 @@
 import streamlit as st
 
 
-image_dir=r"D:\01.project\CodeIt\data\catanddog\cats"
+image_dir=r"./data/cats"
 
 
 
@@ -76,3 +76,4 @@ st.write("파일 크기 (바이트):", os.path.getsize(image_path))
 st.write("파일 경로:", image_path)
 st.write("파일 이름:", selected_image)
 st.write("파일 확장자:", os.path.splitext(selected_image)[1])
+
